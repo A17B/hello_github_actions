@@ -9,4 +9,4 @@ outputs:
   greeting: 
     description: 'How we greet you'
 runs: 'node20'
-main: 'index.js'
+main: 'dist/index.js'
