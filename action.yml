@@ -1,0 +1,12 @@
+name: 'Hello World'
+description: 'Greet SOmeone and record the time'
+inputs:
+  name:
+    description: 'Name'
+    required: true
+    defailt: "Marc"
+outputs:
+  greeting: 
+    description: 'How we greet you'
+runs: 'node20'
+main: 'index.js'
