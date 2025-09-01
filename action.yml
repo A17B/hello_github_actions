@@ -8,5 +8,6 @@ inputs:
 outputs:
   greeting: 
     description: 'How we greet you'
-runs: 'node20'
-main: 'dist/index.js'
+runs: 
+  using: 'node20'
+  main: 'dist/index.js'
